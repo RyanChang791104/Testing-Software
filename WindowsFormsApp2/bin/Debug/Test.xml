@@ -1,11 +1,50 @@
-﻿	
-	public static class MyClass
-	{
+﻿
 	
-	    public static void MainLogic()
 	    {
-	    
-	console.Write("HI);
-	 }
+			Log4Scape_1_GPS.Debug("#########################################################################");
+	        Log4Scape_1_GPS.Debug(CommonData.ScriptStepData.Number+" "+CommonData.ScriptStepData.Description);
+	        Log4Scape_1_GPS.Debug("#########################################################################");
+	        
+	
+	  			
+	  		int m=50; //Number of measurement
+			double[] measurement = new double[m];
+			double Value = 0;
+			int i=0;
+			
+	
+			// to take measurement 
+			for 	(i=0; i<m; i++)
+			{
+				measurement [i] = VoltageMapper1.GetValue(CustomDataStep.sVoltage);
+				Log4Scape_1_GPS.Debug("Measurement "+(i+1)+" = "+ measurement [i]);
+				Thread.Sleep(50);
+				}
+				
+			// to sort measured values
+			Array.Sort (measurement);
+			Log4Scape_1_GPS.Debug(" ");
+			
+			// delete highest and lowest measured values
+			for 	(i=1; i<(m-1); i++)
+			{
+				Value+= measurement [i];
+				Log4Scape_1_GPS.Debug("Value "+(i)+" = "+ measurement [i]);
+				}
+			
+			// build average value
+			Measurement.Value=Value/(m-2);
+			Log4Scape_1_GPS.Debug(" ");
+			
+			
+			
+			
+			Log4Scape_1_GPS.Debug("UL					: " + (Measurement.SetValue + Measurement.UpperLimit));
+			Log4Scape_1_GPS.Debug("Teststep Result	: " + Measurement.Value.ToString());
+			Log4Scape_1_GPS.Debug("LL					: " + (Measurement.SetValue - Measurement.LowerLimit));
+			
+			Log4Scape_1_GPS.Debug("--> DONE!");
+
+	    }
 
 	}

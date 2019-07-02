@@ -83,8 +83,11 @@ namespace WindowsFormsApp2
             host.Location = new Point(0, 0);
             host.Child = textEditor_;
             this.richTextBox3.Controls.Add(host);
-        
+            textEditor_.MouseDoubleClick += text_editor_DoubleClick;
+            textEditor_.KeyDown += TextEditor__KeyDown;
+          
         }
+
         private DataTable Getdata_as_tree()
         {
             SQLiteCommand cmd = new SQLiteCommand();
@@ -361,8 +364,9 @@ namespace WindowsFormsApp2
             this.richTextBox3.Controls.Add(host);
             this.tabControl1.SelectedIndex = 2;
             xshd_stream.Close();
-            this.richTextBox3.Controls.Remove(host);
-            this.richTextBox3.BringToFront();
+            //    this.richTextBox3.Controls.Remove(host);
+            // this.richTextBox3.BringToFront();
+            
         }
         private DataTable Script_Search(string step)
         {
@@ -407,7 +411,7 @@ namespace WindowsFormsApp2
         {
 
             richTextBox2.Clear();
-            Code_Compiler(scripts_);
+            Code_Compiler(textEditor_.Text);
 
         }
 
@@ -429,8 +433,18 @@ namespace WindowsFormsApp2
         {
 
         }
-        private void richTextBox3_DoubleClick(object sender, EventArgs e)
+        private void text_editor_DoubleClick(object sender, EventArgs e)
         {
+      
+        }
+        //TextEditor temp;
+        private void TextEditor__KeyDown(object sender, System.Windows.Input.KeyEventArgs e)
+        {
+            if (e.Key == System.Windows.Input.Key.LeftCtrl)
+            {
+                //temp.Text = textEditor_.Text;
+                Console.WriteLine();
+            }
 
         }
         private void richTextBox2_DoubleClick(object sender, EventArgs e)
@@ -438,9 +452,9 @@ namespace WindowsFormsApp2
   
         }
 
-        private void richTextBox3_MouseDown(object sender, MouseEventArgs e)
+        private void richTextBox3_KeyDown(object sender, KeyEventArgs e)
         {
-   
+
         }
     }
 }

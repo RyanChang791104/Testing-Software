@@ -385,7 +385,8 @@
             this.richTextBox3.Size = new System.Drawing.Size(1869, 623);
             this.richTextBox3.TabIndex = 3;
             this.richTextBox3.Text = "";
-            this.richTextBox3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.richTextBox3_MouseDown);
+            this.richTextBox3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.richTextBox3_KeyDown);
+
             // 
             // richTextBox2
             // 
