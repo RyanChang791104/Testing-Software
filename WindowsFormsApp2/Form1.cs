@@ -10,11 +10,14 @@ using ICSharpCode.AvalonEdit;
 using System.Windows.Forms.Integration;
 using ICSharpCode.AvalonEdit.Highlighting;
 using Microsoft.CSharp;
+using System.CodeDom;
 using System.CodeDom.Compiler;
+using System.Reflection;
 namespace WindowsFormsApp2
 {
     public partial class Form1 : Form
     {
+        
         private TextEditor textEditor_ = new TextEditor();
         private ElementHost host = new ElementHost();
         private TreeNode mySelectedNode1;
@@ -41,24 +44,43 @@ namespace WindowsFormsApp2
             getTreeview();
             DataGridView();
             Step_Parameter();
+            
         }
         CompilerResults results;
         private void Code_Compiler(string script)
         {
-            icc = codeProvider.CreateCompiler();
+            CodeDomProvider cd = CodeDomProvider.CreateProvider("C#");
+            //icc = codeProvider.CreateCompiler();
             CompilerParameters parameters = new CompilerParameters();
             parameters.GenerateExecutable = true;
             parameters.GenerateInMemory = false;
             parameters.ReferencedAssemblies.Add("System.dll");
-            results = icc.CompileAssemblyFromSource(parameters, script);
+            parameters.ReferencedAssemblies.Add("System.Windows.Forms.dll");
+            parameters.OutputAssembly=Application.StartupPath+ @"\file.dll";
+            parameters.IncludeDebugInformation = true;
+           // parameters.OutputAssembly
+            //   parameters.ReferencedAssemblies.Add()
+            results = cd.CompileAssemblyFromSource(parameters, script);
             compile_error = results.Errors.Count;
-            result_toassembly = results.PathToAssembly;
+            //result_toassembly = results.PathToAssembly;
+
             if (results.Errors.Count > 0)
             {
                 foreach (CompilerError comperr in results.Errors)
                 {
                     richTextBox2.AppendText("Line number: " + comperr.Line + " Error Text: "+comperr.ErrorText +"\n");
                 }
+            }
+            //return results.CompiledAssembly;
+            foreach(Type atype in results.CompiledAssembly.GetTypes())
+            {
+                //object[] method_p = new object[]
+                //{
+                //    "Okok"
+                //};
+               // MethodInfo method = atype.GetMethod("Main");
+               // DialogResult method_result = (DialogResult)method.Invoke(null, method_p);
+               // MessageBox.Show(method_result.ToString());
             }
         }
         private void Initial()
@@ -411,8 +433,11 @@ namespace WindowsFormsApp2
         {
 
             richTextBox2.Clear();
-            Code_Compiler(textEditor_.Text);
-
+           Code_Compiler(textEditor_.Text);
+            //Type a_type = results.CompiledAssembly.GetType();
+            //MethodInfo method = a_type.GetMethod("Main");
+            //object XML=  assembly_.CreateInstance("");
+         
         }
 
         private void toolStripButton3_Click(object sender, EventArgs e)

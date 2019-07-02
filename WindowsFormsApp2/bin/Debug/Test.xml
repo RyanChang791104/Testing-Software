@@ -1,50 +1,49 @@
-﻿
-	
+﻿	[StepClass]
+	public class MyClass
+	{ 
+	    [StepMain]
+	    public void MainLogic()
 	    {
-			Log4Scape_1_GPS.Debug("#########################################################################");
-	        Log4Scape_1_GPS.Debug(CommonData.ScriptStepData.Number+" "+CommonData.ScriptStepData.Description);
-	        Log4Scape_1_GPS.Debug("#########################################################################");
+	        Log4Scape_1_USB.Debug("######################################################");
+	     	Log4Scape_1_USB.Debug(CommonData.ScriptStepData.Number+" "+CommonData.ScriptStepData.Description);
+	     	Log4Scape_1_USB.Debug("######################################################");
+	        double dTimeStart = DateTime.Now.Ticks;
+	        double lDuration = 0.00;
+	        string sResult = "";
+	        int iTimeout = Convert.ToInt32(Measurement.AbsoluteUpperLimit *1000);
 	        
-	
-	  			
-	  		int m=50; //Number of measurement
-			double[] measurement = new double[m];
-			double Value = 0;
-			int i=0;
-			
-	
-			// to take measurement 
-			for 	(i=0; i<m; i++)
-			{
-				measurement [i] = VoltageMapper1.GetValue(CustomDataStep.sVoltage);
-				Log4Scape_1_GPS.Debug("Measurement "+(i+1)+" = "+ measurement [i]);
-				Thread.Sleep(50);
-				}
-				
-			// to sort measured values
-			Array.Sort (measurement);
-			Log4Scape_1_GPS.Debug(" ");
-			
-			// delete highest and lowest measured values
-			for 	(i=1; i<(m-1); i++)
-			{
-				Value+= measurement [i];
-				Log4Scape_1_GPS.Debug("Value "+(i)+" = "+ measurement [i]);
-				}
-			
-			// build average value
-			Measurement.Value=Value/(m-2);
-			Log4Scape_1_GPS.Debug(" ");
-			
-			
-			
-			
-			Log4Scape_1_GPS.Debug("UL					: " + (Measurement.SetValue + Measurement.UpperLimit));
-			Log4Scape_1_GPS.Debug("Teststep Result	: " + Measurement.Value.ToString());
-			Log4Scape_1_GPS.Debug("LL					: " + (Measurement.SetValue - Measurement.LowerLimit));
-			
-			Log4Scape_1_GPS.Debug("--> DONE!");
+	           if (Convert.ToInt64(DataContainer_LocalVolatile.Get("ProdData_SWBuildNumberUnified").ToString()) != 1813003001020)
+	          
+			        {
+			        	Log4Scape_1_USB.Debug("Test not performed: SW_Problem");
+			        	CommonData.ScriptStepData.DescriptionInfo = " $not executed";
+			        	Measurement.Value = Measurement.SetValue - Measurement.LowerLimit;
+						Log4Scape_1_USB.Debug("TestStepResult: " + Measurement.Value.ToString());
+						return;
+			        }
+	        
 
-	    }
-
+	        
+	        Log4Scape_1_USB.Debug("send '" + CustomDataStep.Command + "' and wait " + iTimeout.ToString() + " ms for Prompt '" + CustomDataStep.Prompt + " and expected Result '" + CustomDataStep.ExpectedResult + "'");
+	        SshDevice1.Timeout = iTimeout;
+	       
+	        //Thread.Sleep(500);
+	        sResult = SshDevice1.Request(CustomDataStep.Command);
+	        Log4Scape_1_USB.Debug("RESULT: " + sResult);
+	        lDuration = (DateTime.Now.Ticks - dTimeStart)/10000000;
+	        if (!sResult.Contains(CustomDataStep.ExpectedResult))
+	        {
+	        	Measurement.Value = lDuration*-1;
+	        }
+	        else
+	        {
+	        	Measurement.Value = lDuration;
+	        }
+	        
+	        Log4Scape_1_USB.Debug("TESTSTEPRESULT: " + Measurement.Value.ToString());
+	        
+	        
+	   		}
+	   		
+	   		
 	}
