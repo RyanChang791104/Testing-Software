@@ -1,0 +1,1808 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<a1:DeviceContainer id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/MhDeviceContainer/MhDeviceContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-5">Devices</nodeName>
+<nodes href="#ref-6"/>
+<parentNode xsi:type="xsd:anyType" xsi:null="1"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+</a1:DeviceContainer>
+<a2:ArrayList id="ref-6" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-7"/>
+<_size>20</_size>
+<_version>224</_version>
+</a2:ArrayList>
+<SOAP-ENC:Array id="ref-7" SOAP-ENC:arrayType="xsd:anyType[32]">
+<item href="#ref-8"/>
+<item href="#ref-9"/>
+<item href="#ref-10"/>
+<item href="#ref-11"/>
+<item href="#ref-12"/>
+<item href="#ref-13"/>
+<item href="#ref-14"/>
+<item href="#ref-15"/>
+<item href="#ref-16"/>
+<item href="#ref-17"/>
+<item href="#ref-18"/>
+<item href="#ref-19"/>
+<item href="#ref-20"/>
+<item href="#ref-21"/>
+<item href="#ref-22"/>
+<item href="#ref-23"/>
+<item href="#ref-24"/>
+<item href="#ref-25"/>
+<item href="#ref-26"/>
+<item href="#ref-27"/>
+</SOAP-ENC:Array>
+<a6:SlotContainer id="ref-8" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/SlotContainer/SlotContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-29">SlotContainer1</nodeName>
+<nodes href="#ref-30"/>
+<parentNode href="#ref-1"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<SetPropertyFilter id="ref-31"></SetPropertyFilter>
+</a6:SlotContainer>
+<a7:I2CBus id="ref-9" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.BusDevices/BusDevice%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-33">I2CBus0</nodeName>
+<nodes href="#ref-34"/>
+<parentNode href="#ref-1"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<Bus xsi:type="a7:Bus" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.BusDevices/BusDevice%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">Bus0</Bus>
+<CommDevice id="ref-35">Adq10Device1</CommDevice>
+<Port xsi:type="a7:Ports" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.BusDevices/BusDevice%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">DIO_C</Port>
+</a7:I2CBus>
+<a7:I2CBus id="ref-10" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.BusDevices/BusDevice%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-36">I2CBus1</nodeName>
+<nodes href="#ref-37"/>
+<parentNode href="#ref-1"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<Bus xsi:type="a7:Bus" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.BusDevices/BusDevice%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">Bus1</Bus>
+<CommDevice href="#ref-35"/>
+<Port xsi:type="a7:Ports" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.BusDevices/BusDevice%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">DIO_C</Port>
+</a7:I2CBus>
+<a7:I2CBus id="ref-11" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.BusDevices/BusDevice%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-38">I2CBus2</nodeName>
+<nodes href="#ref-39"/>
+<parentNode href="#ref-1"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<Bus xsi:type="a7:Bus" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.BusDevices/BusDevice%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">Bus2</Bus>
+<CommDevice href="#ref-35"/>
+<Port xsi:type="a7:Ports" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.BusDevices/BusDevice%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">DIO_C</Port>
+</a7:I2CBus>
+<a7:I2CBus id="ref-12" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.BusDevices/BusDevice%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-40">I2CBus3</nodeName>
+<nodes href="#ref-41"/>
+<parentNode href="#ref-1"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<Bus xsi:type="a7:Bus" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.BusDevices/BusDevice%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">Bus3</Bus>
+<CommDevice href="#ref-35"/>
+<Port xsi:type="a7:Ports" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.BusDevices/BusDevice%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">DIO_C</Port>
+</a7:I2CBus>
+<a8:DataContainer id="ref-13" xmlns:a8="http://schemas.microsoft.com/clr/nsassem/DataContainer/DataContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-43">DataContainer_GlobalPersistent</nodeName>
+<nodes href="#ref-44"/>
+<parentNode href="#ref-1"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<PersistValues>true</PersistValues>
+</a8:DataContainer>
+<a9:CNLogger id="ref-14" xmlns:a9="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Logger/DataContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-45">CNLogger0</nodeName>
+<nodes href="#ref-46"/>
+<parentNode href="#ref-1"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<TargetName xsi:type="xsd:anyType" xsi:null="1"/>
+<TargetAdress xsi:type="xsd:anyType" xsi:null="1"/>
+<HostPort>851</HostPort>
+<ServerPort>853</ServerPort>
+<UserID id="ref-47">AFT-TRACER</UserID>
+<LogDir id="ref-48">D:\CNLOGGER_SCAPE</LogDir>
+<LogSize>100</LogSize>
+</a9:CNLogger>
+<a8:DataContainer id="ref-15" xmlns:a8="http://schemas.microsoft.com/clr/nsassem/DataContainer/DataContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-49">DataContainer_GlobalVolatile</nodeName>
+<nodes href="#ref-50"/>
+<parentNode href="#ref-1"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<PersistValues>false</PersistValues>
+</a8:DataContainer>
+<a8:DataContainer id="ref-16" xmlns:a8="http://schemas.microsoft.com/clr/nsassem/DataContainer/DataContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-51">DataContainer_Global_TypeTable</nodeName>
+<nodes href="#ref-52"/>
+<parentNode href="#ref-1"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<PersistValues>true</PersistValues>
+</a8:DataContainer>
+<a10:Adq10Device id="ref-17" xmlns:a10="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Alldaq.Adq10/Alldaq%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName href="#ref-35"/>
+<nodes href="#ref-55"/>
+<parentNode href="#ref-1"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">Invisible</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<SerialNumber>385941863</SerialNumber>
+<PortE xsi:type="a11:ConfigTypeDIO" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Meilhaus/Meilhaus%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">DigitalOutput</PortE>
+<PortF xsi:type="a11:ConfigTypeDIO" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Meilhaus/Meilhaus%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">DigitalOutput</PortF>
+</a10:Adq10Device>
+<a12:Adq21XDevice id="ref-18" xmlns:a12="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Alldaq.Adq21X/Alldaq%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-56">Adq21XDevice1</nodeName>
+<nodes href="#ref-57"/>
+<parentNode href="#ref-1"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">Visible</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<SerialNumber>385941800</SerialNumber>
+<PortA xsi:type="a11:ConfigTypeDIO" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Meilhaus/Meilhaus%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">DigitalInput</PortA>
+<PortB xsi:type="a11:ConfigTypeDIO" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Meilhaus/Meilhaus%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">DigitalInput</PortB>
+<PortC xsi:type="a11:ConfigTypeDIO" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Meilhaus/Meilhaus%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">DigitalInput</PortC>
+<PortD xsi:type="a11:ConfigTypeDIO" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Meilhaus/Meilhaus%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">DigitalInput</PortD>
+<RequestedSampleRate>1000</RequestedSampleRate>
+<NumberOfValues>1</NumberOfValues>
+<FrequencySpectrumSize>2000</FrequencySpectrumSize>
+<FilterOrder>0</FilterOrder>
+<FilterOutToHz>0</FilterOutToHz>
+<FilterOutFromHz>0</FilterOutFromHz>
+<FilterType xsi:type="a13:FilterType" xmlns:a13="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Alldaq/Alldaq%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</FilterType>
+<FftWindowFunction xsi:type="a13:FftWindowFunction" xmlns:a13="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Alldaq/Alldaq%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">Rectangular</FftWindowFunction>
+<Overlap>0</Overlap>
+<FrequencyIgnoreBelow>0</FrequencyIgnoreBelow>
+<FrequencyIgnoreAbove>0</FrequencyIgnoreAbove>
+<RangeIndex>0</RangeIndex>
+</a12:Adq21XDevice>
+<a14:Adq400Device id="ref-19" xmlns:a14="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Alldaq.Adq400/Alldaq%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-58">Adq400Device1</nodeName>
+<nodes href="#ref-59"/>
+<parentNode href="#ref-1"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<SerialNumber>385941830</SerialNumber>
+<RequestedSampleRate>1000</RequestedSampleRate>
+<NumberOfValues>1</NumberOfValues>
+<FrequencySpectrumSize>0</FrequencySpectrumSize>
+<FilterOrder>0</FilterOrder>
+<FilterOutToHz>0</FilterOutToHz>
+<FilterOutFromHz>0</FilterOutFromHz>
+<FilterType xsi:type="a13:FilterType" xmlns:a13="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Alldaq/Alldaq%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</FilterType>
+<FftWindowFunction xsi:type="a13:FftWindowFunction" xmlns:a13="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Alldaq/Alldaq%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">Rectangular</FftWindowFunction>
+<Overlap>0</Overlap>
+<FrequencyIgnoreBelow>0</FrequencyIgnoreBelow>
+<FrequencyIgnoreAbove>0</FrequencyIgnoreAbove>
+<RangeIndex>0</RangeIndex>
+</a14:Adq400Device>
+<a14:Adq400Device id="ref-20" xmlns:a14="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Alldaq.Adq400/Alldaq%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-60">Adq400Device2</nodeName>
+<nodes href="#ref-61"/>
+<parentNode href="#ref-1"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">Invisible</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<SerialNumber>385941831</SerialNumber>
+<RequestedSampleRate>1000</RequestedSampleRate>
+<NumberOfValues>1</NumberOfValues>
+<FrequencySpectrumSize>0</FrequencySpectrumSize>
+<FilterOrder>0</FilterOrder>
+<FilterOutToHz>0</FilterOutToHz>
+<FilterOutFromHz>0</FilterOutFromHz>
+<FilterType xsi:type="a13:FilterType" xmlns:a13="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Alldaq/Alldaq%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</FilterType>
+<FftWindowFunction xsi:type="a13:FftWindowFunction" xmlns:a13="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Alldaq/Alldaq%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">Rectangular</FftWindowFunction>
+<Overlap>0</Overlap>
+<FrequencyIgnoreBelow>0</FrequencyIgnoreBelow>
+<FrequencyIgnoreAbove>0</FrequencyIgnoreAbove>
+<RangeIndex>0</RangeIndex>
+</a14:Adq400Device>
+<a6:SlotContainer id="ref-21" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/SlotContainer/SlotContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-62">SlotContainer2</nodeName>
+<nodes href="#ref-63"/>
+<parentNode href="#ref-1"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<SetPropertyFilter href="#ref-31"/>
+</a6:SlotContainer>
+<a6:SlotContainer id="ref-22" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/SlotContainer/SlotContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-64">SlotContainer3</nodeName>
+<nodes href="#ref-65"/>
+<parentNode href="#ref-1"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<SetPropertyFilter href="#ref-31"/>
+</a6:SlotContainer>
+<a6:SlotContainer id="ref-23" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/SlotContainer/SlotContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-66">SlotContainer4</nodeName>
+<nodes href="#ref-67"/>
+<parentNode href="#ref-1"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<SetPropertyFilter href="#ref-31"/>
+</a6:SlotContainer>
+<a15:CurrentMapper id="ref-24" xmlns:a15="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.MeasurementMapper.Current/MeasurementMapper%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-69">CurrentMapperVDA5_Dev1</nodeName>
+<nodes href="#ref-70"/>
+<parentNode href="#ref-1"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<Controller id="ref-71">Devices/Adq400Device1</Controller>
+</a15:CurrentMapper>
+<a16:VoltageMapper id="ref-25" xmlns:a16="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.MeasurementMapper.Voltage/MeasurementMapper%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-72">VoltageMapperVDA5</nodeName>
+<nodes href="#ref-73"/>
+<parentNode href="#ref-1"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<Controller id="ref-74">Devices/Adq21XDevice1</Controller>
+</a16:VoltageMapper>
+<a15:CurrentMapper id="ref-26" xmlns:a15="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.MeasurementMapper.Current/MeasurementMapper%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-75">CurrentMapperVDA5_Dev2</nodeName>
+<nodes href="#ref-76"/>
+<parentNode href="#ref-1"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<Controller id="ref-77">Devices/Adq400Device2</Controller>
+</a15:CurrentMapper>
+<a7:I2CBus id="ref-27" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.BusDevices/BusDevice%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-78">I2CBus4</nodeName>
+<nodes href="#ref-79"/>
+<parentNode href="#ref-1"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<Bus xsi:type="a7:Bus" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.BusDevices/BusDevice%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">Bus0</Bus>
+<CommDevice href="#ref-35"/>
+<Port xsi:type="a7:Ports" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.BusDevices/BusDevice%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">DIO_D</Port>
+</a7:I2CBus>
+<a2:ArrayList id="ref-30" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-80"/>
+<_size>72</_size>
+<_version>216</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-34" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-81"/>
+<_size>5</_size>
+<_version>31</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-37" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-82"/>
+<_size>5</_size>
+<_version>31</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-39" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-83"/>
+<_size>5</_size>
+<_version>15</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-41" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-84"/>
+<_size>5</_size>
+<_version>5</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-44" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-85"/>
+<_size>0</_size>
+<_version>4</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-46" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-86"/>
+<_size>0</_size>
+<_version>0</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-50" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-87"/>
+<_size>0</_size>
+<_version>0</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-52" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-88"/>
+<_size>0</_size>
+<_version>22</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-55" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-89"/>
+<_size>0</_size>
+<_version>0</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-57" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-90"/>
+<_size>0</_size>
+<_version>0</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-59" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-90"/>
+<_size>0</_size>
+<_version>0</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-61" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-90"/>
+<_size>0</_size>
+<_version>0</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-63" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-91"/>
+<_size>71</_size>
+<_version>209</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-65" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-92"/>
+<_size>71</_size>
+<_version>211</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-67" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-93"/>
+<_size>71</_size>
+<_version>209</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-70" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-94"/>
+<_size>2</_size>
+<_version>20</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-73" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-95"/>
+<_size>16</_size>
+<_version>50</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-76" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-96"/>
+<_size>2</_size>
+<_version>20</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-79" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-97"/>
+<_size>1</_size>
+<_version>11</_version>
+</a2:ArrayList>
+<SOAP-ENC:Array id="ref-80" SOAP-ENC:arrayType="xsd:anyType[128]">
+<item href="#ref-98"/>
+<item href="#ref-99"/>
+<item href="#ref-100"/>
+<item href="#ref-101"/>
+<item href="#ref-102"/>
+<item href="#ref-103"/>
+<item href="#ref-104"/>
+<item href="#ref-105"/>
+<item href="#ref-106"/>
+<item href="#ref-107"/>
+<item href="#ref-108"/>
+<item href="#ref-109"/>
+<item href="#ref-110"/>
+<item href="#ref-111"/>
+<item href="#ref-112"/>
+<item href="#ref-113"/>
+<item href="#ref-114"/>
+<item href="#ref-115"/>
+<item href="#ref-116"/>
+<item href="#ref-117"/>
+<item href="#ref-118"/>
+<item href="#ref-119"/>
+<item href="#ref-120"/>
+<item href="#ref-121"/>
+<item href="#ref-122"/>
+<item href="#ref-123"/>
+<item href="#ref-124"/>
+<item href="#ref-125"/>
+<item href="#ref-126"/>
+<item href="#ref-127"/>
+<item href="#ref-128"/>
+<item href="#ref-129"/>
+<item href="#ref-130"/>
+<item href="#ref-131"/>
+<item href="#ref-132"/>
+<item href="#ref-133"/>
+<item href="#ref-134"/>
+<item href="#ref-135"/>
+<item href="#ref-136"/>
+<item href="#ref-137"/>
+<item href="#ref-138"/>
+<item href="#ref-139"/>
+<item href="#ref-140"/>
+<item href="#ref-141"/>
+<item href="#ref-142"/>
+<item href="#ref-143"/>
+<item href="#ref-144"/>
+<item href="#ref-145"/>
+<item href="#ref-146"/>
+<item href="#ref-147"/>
+<item href="#ref-148"/>
+<item href="#ref-149"/>
+<item href="#ref-150"/>
+<item href="#ref-151"/>
+<item href="#ref-152"/>
+<item href="#ref-153"/>
+<item href="#ref-154"/>
+<item href="#ref-155"/>
+<item href="#ref-156"/>
+<item href="#ref-157"/>
+<item href="#ref-158"/>
+<item href="#ref-159"/>
+<item href="#ref-160"/>
+<item href="#ref-161"/>
+<item href="#ref-162"/>
+<item href="#ref-163"/>
+<item href="#ref-164"/>
+<item href="#ref-165"/>
+<item href="#ref-166"/>
+<item href="#ref-167"/>
+<item href="#ref-168"/>
+<item href="#ref-169"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-81" SOAP-ENC:arrayType="xsd:anyType[8]">
+<item href="#ref-170"/>
+<item href="#ref-171"/>
+<item href="#ref-172"/>
+<item href="#ref-173"/>
+<item href="#ref-174"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-82" SOAP-ENC:arrayType="xsd:anyType[16]">
+<item href="#ref-175"/>
+<item href="#ref-176"/>
+<item href="#ref-177"/>
+<item href="#ref-178"/>
+<item href="#ref-179"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-83" SOAP-ENC:arrayType="xsd:anyType[16]">
+<item href="#ref-180"/>
+<item href="#ref-181"/>
+<item href="#ref-182"/>
+<item href="#ref-183"/>
+<item href="#ref-184"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-84" SOAP-ENC:arrayType="xsd:anyType[8]">
+<item href="#ref-185"/>
+<item href="#ref-186"/>
+<item href="#ref-187"/>
+<item href="#ref-188"/>
+<item href="#ref-189"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-85" SOAP-ENC:arrayType="xsd:anyType[4]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-86" SOAP-ENC:arrayType="xsd:anyType[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-87" SOAP-ENC:arrayType="xsd:anyType[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-88" SOAP-ENC:arrayType="xsd:anyType[8]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-89" SOAP-ENC:arrayType="xsd:anyType[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-90" SOAP-ENC:arrayType="xsd:anyType[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-91" SOAP-ENC:arrayType="xsd:anyType[128]">
+<item href="#ref-190"/>
+<item href="#ref-191"/>
+<item href="#ref-192"/>
+<item href="#ref-193"/>
+<item href="#ref-194"/>
+<item href="#ref-195"/>
+<item href="#ref-196"/>
+<item href="#ref-197"/>
+<item href="#ref-198"/>
+<item href="#ref-199"/>
+<item href="#ref-200"/>
+<item href="#ref-201"/>
+<item href="#ref-202"/>
+<item href="#ref-203"/>
+<item href="#ref-204"/>
+<item href="#ref-205"/>
+<item href="#ref-206"/>
+<item href="#ref-207"/>
+<item href="#ref-208"/>
+<item href="#ref-209"/>
+<item href="#ref-210"/>
+<item href="#ref-211"/>
+<item href="#ref-212"/>
+<item href="#ref-213"/>
+<item href="#ref-214"/>
+<item href="#ref-215"/>
+<item href="#ref-216"/>
+<item href="#ref-217"/>
+<item href="#ref-218"/>
+<item href="#ref-219"/>
+<item href="#ref-220"/>
+<item href="#ref-221"/>
+<item href="#ref-222"/>
+<item href="#ref-223"/>
+<item href="#ref-224"/>
+<item href="#ref-225"/>
+<item href="#ref-226"/>
+<item href="#ref-227"/>
+<item href="#ref-228"/>
+<item href="#ref-229"/>
+<item href="#ref-230"/>
+<item href="#ref-231"/>
+<item href="#ref-232"/>
+<item href="#ref-233"/>
+<item href="#ref-234"/>
+<item href="#ref-235"/>
+<item href="#ref-236"/>
+<item href="#ref-237"/>
+<item href="#ref-238"/>
+<item href="#ref-239"/>
+<item href="#ref-240"/>
+<item href="#ref-241"/>
+<item href="#ref-242"/>
+<item href="#ref-243"/>
+<item href="#ref-244"/>
+<item href="#ref-245"/>
+<item href="#ref-246"/>
+<item href="#ref-247"/>
+<item href="#ref-248"/>
+<item href="#ref-249"/>
+<item href="#ref-250"/>
+<item href="#ref-251"/>
+<item href="#ref-252"/>
+<item href="#ref-253"/>
+<item href="#ref-254"/>
+<item href="#ref-255"/>
+<item href="#ref-256"/>
+<item href="#ref-257"/>
+<item href="#ref-258"/>
+<item href="#ref-259"/>
+<item href="#ref-260"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-92" SOAP-ENC:arrayType="xsd:anyType[128]">
+<item href="#ref-261"/>
+<item href="#ref-262"/>
+<item href="#ref-263"/>
+<item href="#ref-264"/>
+<item href="#ref-265"/>
+<item href="#ref-266"/>
+<item href="#ref-267"/>
+<item href="#ref-268"/>
+<item href="#ref-269"/>
+<item href="#ref-270"/>
+<item href="#ref-271"/>
+<item href="#ref-272"/>
+<item href="#ref-273"/>
+<item href="#ref-274"/>
+<item href="#ref-275"/>
+<item href="#ref-276"/>
+<item href="#ref-277"/>
+<item href="#ref-278"/>
+<item href="#ref-279"/>
+<item href="#ref-280"/>
+<item href="#ref-281"/>
+<item href="#ref-282"/>
+<item href="#ref-283"/>
+<item href="#ref-284"/>
+<item href="#ref-285"/>
+<item href="#ref-286"/>
+<item href="#ref-287"/>
+<item href="#ref-288"/>
+<item href="#ref-289"/>
+<item href="#ref-290"/>
+<item href="#ref-291"/>
+<item href="#ref-292"/>
+<item href="#ref-293"/>
+<item href="#ref-294"/>
+<item href="#ref-295"/>
+<item href="#ref-296"/>
+<item href="#ref-297"/>
+<item href="#ref-298"/>
+<item href="#ref-299"/>
+<item href="#ref-300"/>
+<item href="#ref-301"/>
+<item href="#ref-302"/>
+<item href="#ref-303"/>
+<item href="#ref-304"/>
+<item href="#ref-305"/>
+<item href="#ref-306"/>
+<item href="#ref-307"/>
+<item href="#ref-308"/>
+<item href="#ref-309"/>
+<item href="#ref-310"/>
+<item href="#ref-311"/>
+<item href="#ref-312"/>
+<item href="#ref-313"/>
+<item href="#ref-314"/>
+<item href="#ref-315"/>
+<item href="#ref-316"/>
+<item href="#ref-317"/>
+<item href="#ref-318"/>
+<item href="#ref-319"/>
+<item href="#ref-320"/>
+<item href="#ref-321"/>
+<item href="#ref-322"/>
+<item href="#ref-323"/>
+<item href="#ref-324"/>
+<item href="#ref-325"/>
+<item href="#ref-326"/>
+<item href="#ref-327"/>
+<item href="#ref-328"/>
+<item href="#ref-329"/>
+<item href="#ref-330"/>
+<item href="#ref-331"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-93" SOAP-ENC:arrayType="xsd:anyType[128]">
+<item href="#ref-332"/>
+<item href="#ref-333"/>
+<item href="#ref-334"/>
+<item href="#ref-335"/>
+<item href="#ref-336"/>
+<item href="#ref-337"/>
+<item href="#ref-338"/>
+<item href="#ref-339"/>
+<item href="#ref-340"/>
+<item href="#ref-341"/>
+<item href="#ref-342"/>
+<item href="#ref-343"/>
+<item href="#ref-344"/>
+<item href="#ref-345"/>
+<item href="#ref-346"/>
+<item href="#ref-347"/>
+<item href="#ref-348"/>
+<item href="#ref-349"/>
+<item href="#ref-350"/>
+<item href="#ref-351"/>
+<item href="#ref-352"/>
+<item href="#ref-353"/>
+<item href="#ref-354"/>
+<item href="#ref-355"/>
+<item href="#ref-356"/>
+<item href="#ref-357"/>
+<item href="#ref-358"/>
+<item href="#ref-359"/>
+<item href="#ref-360"/>
+<item href="#ref-361"/>
+<item href="#ref-362"/>
+<item href="#ref-363"/>
+<item href="#ref-364"/>
+<item href="#ref-365"/>
+<item href="#ref-366"/>
+<item href="#ref-367"/>
+<item href="#ref-368"/>
+<item href="#ref-369"/>
+<item href="#ref-370"/>
+<item href="#ref-371"/>
+<item href="#ref-372"/>
+<item href="#ref-373"/>
+<item href="#ref-374"/>
+<item href="#ref-375"/>
+<item href="#ref-376"/>
+<item href="#ref-377"/>
+<item href="#ref-378"/>
+<item href="#ref-379"/>
+<item href="#ref-380"/>
+<item href="#ref-381"/>
+<item href="#ref-382"/>
+<item href="#ref-383"/>
+<item href="#ref-384"/>
+<item href="#ref-385"/>
+<item href="#ref-386"/>
+<item href="#ref-387"/>
+<item href="#ref-388"/>
+<item href="#ref-389"/>
+<item href="#ref-390"/>
+<item href="#ref-391"/>
+<item href="#ref-392"/>
+<item href="#ref-393"/>
+<item href="#ref-394"/>
+<item href="#ref-395"/>
+<item href="#ref-396"/>
+<item href="#ref-397"/>
+<item href="#ref-398"/>
+<item href="#ref-399"/>
+<item href="#ref-400"/>
+<item href="#ref-401"/>
+<item href="#ref-402"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-94" SOAP-ENC:arrayType="xsd:anyType[8]">
+<item href="#ref-403"/>
+<item href="#ref-404"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-95" SOAP-ENC:arrayType="xsd:anyType[16]">
+<item href="#ref-405"/>
+<item href="#ref-406"/>
+<item href="#ref-407"/>
+<item href="#ref-408"/>
+<item href="#ref-409"/>
+<item href="#ref-410"/>
+<item href="#ref-411"/>
+<item href="#ref-412"/>
+<item href="#ref-413"/>
+<item href="#ref-414"/>
+<item href="#ref-415"/>
+<item href="#ref-416"/>
+<item href="#ref-417"/>
+<item href="#ref-418"/>
+<item href="#ref-419"/>
+<item href="#ref-420"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-96" SOAP-ENC:arrayType="xsd:anyType[8]">
+<item href="#ref-421"/>
+<item href="#ref-422"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-97" SOAP-ENC:arrayType="xsd:anyType[8]">
+<item href="#ref-423"/>
+</SOAP-ENC:Array>
+<a16:VoltageMapper id="ref-98" xmlns:a16="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.MeasurementMapper.Voltage/MeasurementMapper%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-424">VoltageMapper1</nodeName>
+<nodes href="#ref-425"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<Controller id="ref-426">Devices/Adq21XDevice1</Controller>
+</a16:VoltageMapper>
+<a8:DataContainer id="ref-99" xmlns:a8="http://schemas.microsoft.com/clr/nsassem/DataContainer/DataContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-427">LocalDataContainer</nodeName>
+<nodes href="#ref-428"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<PersistValues>false</PersistValues>
+</a8:DataContainer>
+<a17:FBSequencer id="ref-100" xmlns:a17="http://schemas.microsoft.com/clr/nsassem/Scape.FunctionBlocks.Sequencer/FBSequencer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-430">FBSequencer_1_GPS</nodeName>
+<nodes href="#ref-431"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>5</x>
+<y>5</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<Timeout>10000</Timeout>
+<SlotNb>1</SlotNb>
+</a17:FBSequencer>
+<a18:Scanner id="ref-101" xmlns:a18="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Scanner/Scanner%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-433">Scanner1</nodeName>
+<nodes href="#ref-434"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<SendBarcodeToKeys>false</SendBarcodeToKeys>
+<Preamble href="#ref-31"/>
+<Port xsi:type="a18:PortType" xmlns:a18="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Scanner/Scanner%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">ComPort</Port>
+<PortParams href="#ref-435"/>
+<SerialTriggerCharacter id="ref-436">\u001D</SerialTriggerCharacter>
+</a18:Scanner>
+<a20:TelnetDevice id="ref-102" xmlns:a20="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.RemoteQnx.Telnet/RemoteQnxDevice%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-438">TelnetDevice1</nodeName>
+<nodes href="#ref-439"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<Visible id="ref-440">None</Visible>
+<Host id="ref-441">172.15.150.101</Host>
+<Username id="ref-442">root</Username>
+<Password id="ref-443">ts&#38;SK412</Password>
+<Prompt id="ref-444">hu-omap</Prompt>
+<PromtTimeOut>40000</PromtTimeOut>
+<ReceiveTimeout>44444</ReceiveTimeout>
+<Port>23</Port>
+<AcceptPromptOnlyAfterEcho>false</AcceptPromptOnlyAfterEcho>
+<LoginDelay>1000</LoginDelay>
+<StreamReadDelay>10</StreamReadDelay>
+<LogoutOnDisable>false</LogoutOnDisable>
+</a20:TelnetDevice>
+<a21:SystemPlatzDevice id="ref-103" xmlns:a21="http://schemas.microsoft.com/clr/nsassem/SystemPlatzDev/SystemPlatzDev%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-446">SystemPlatzDevice1</nodeName>
+<nodes href="#ref-447"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<TitleText id="ref-448">_SLOT_1</TitleText>
+<LogFilePath xsi:type="xsd:anyType" xsi:null="1"/>
+<FailMemList xsi:type="xsd:anyType" xsi:null="1"/>
+<ThreadedTest>true</ThreadedTest>
+<ECVersion id="ref-449">HW2.1_18w13.3-1-20_S15C-20-07-310</ECVersion>
+<Barcode id="ref-450">B305JR0H7500003</Barcode>
+<Typ id="ref-451">B068</Typ>
+<ECUInterfaceList href="#ref-31"/>
+<JobECU xsi:type="xsd:anyType" xsi:null="1"/>
+<JobId xsi:type="xsd:anyType" xsi:null="1"/>
+<JobPara xsi:type="xsd:anyType" xsi:null="1"/>
+<JobResult xsi:type="xsd:anyType" xsi:null="1"/>
+<JobSetNr>0</JobSetNr>
+<JobExpResult xsi:type="xsd:anyType" xsi:null="1"/>
+<ECnfgDiagInterface id="ref-452">
+      </ECnfgDiagInterface>
+<ECnfgDevUnit xsi:type="xsd:anyType" xsi:null="1"/>
+<ECnfgDevAppl xsi:type="xsd:anyType" xsi:null="1"/>
+<ECnfgConfig xsi:type="xsd:anyType" xsi:null="1"/>
+<JobResultValue href="#ref-31"/>
+<Routine xsi:type="xsd:anyType" xsi:null="1"/>
+<allVSGs>false</allVSGs>
+<Parameter xsi:type="xsd:anyType" xsi:null="1"/>
+</a21:SystemPlatzDevice>
+<a22:FrameGrabberDevice id="ref-104" xmlns:a22="http://schemas.microsoft.com/clr/nsassem/FrameGrabber/FrameGrabber%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-454">FrameGrabberDevice1</nodeName>
+<nodes href="#ref-455"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">Invisible</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<GrabberId>1</GrabberId>
+<SerialNumber id="ref-456">8301774</SerialNumber>
+<Visible id="ref-457">Invisible</Visible>
+<BitFile id="ref-458">D:\Program Files\Harman-Becker\HB-SCAPE Framework\Database\generalnclk_18bpp_6_25.bit</BitFile>
+<Buffer>3</Buffer>
+<BlueChannel>0</BlueChannel>
+<BufferNumber>0</BufferNumber>
+<GreenChannel>0</GreenChannel>
+<IgnoreFrameHeight>0</IgnoreFrameHeight>
+<IgnoreFrameWidth>0</IgnoreFrameWidth>
+<IgnoreFrameX>0</IgnoreFrameX>
+<IgnoreFrameY>0</IgnoreFrameY>
+<IgnoreInside>false</IgnoreInside>
+<ProjectType xsi:type="a22:ProjectType" xmlns:a22="http://schemas.microsoft.com/clr/nsassem/FrameGrabber/FrameGrabber%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">Custom</ProjectType>
+<RedChannel>0</RedChannel>
+<ImageWidth>1920</ImageWidth>
+<ImageHeight>720</ImageHeight>
+<DataEnable>false</DataEnable>
+<DEnable>false</DEnable>
+<HSync>true</HSync>
+<VSync>true</VSync>
+<PixelRatio>0</PixelRatio>
+<PixelPhase>0</PixelPhase>
+<DownscaleRate>10</DownscaleRate>
+<WindowXOffset>0</WindowXOffset>
+<WindowYOffset>200</WindowYOffset>
+</a22:FrameGrabberDevice>
+<a17:FBSequencer id="ref-105" xmlns:a17="http://schemas.microsoft.com/clr/nsassem/Scape.FunctionBlocks.Sequencer/FBSequencer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-459">FBSequencer_1_ADJ</nodeName>
+<nodes href="#ref-460"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<Timeout>10000</Timeout>
+<SlotNb>1</SlotNb>
+</a17:FBSequencer>
+<a8:DataContainer id="ref-106" xmlns:a8="http://schemas.microsoft.com/clr/nsassem/DataContainer/DataContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-461">PersistDataContainer</nodeName>
+<nodes href="#ref-462"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<PersistValues>true</PersistValues>
+</a8:DataContainer>
+<a9:Log4Scape id="ref-107" xmlns:a9="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Logger/DataContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-463">Log4Scape_1_ADJ</nodeName>
+<nodes href="#ref-464"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<LogLevel xsi:type="a9:LogLevel" xmlns:a9="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Logger/DataContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">DEBUG</LogLevel>
+<AddTimestamp>true</AddTimestamp>
+<AddSlot>false</AddSlot>
+<FileName id="ref-465">D:\Aktudat\Logscripts\B267XX0F7500003_HISRI003_DUT_1\B267XX0F7500003_HISRI003_DUT_1_151223_091942_4ADJ_AFT.log</FileName>
+<UdpHost id="ref-466">localhost</UdpHost>
+<UdpPort>1111</UdpPort>
+<UdpTimeout>1000</UdpTimeout>
+</a9:Log4Scape>
+<a9:Log4Scape id="ref-108" xmlns:a9="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Logger/DataContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-467">Log4Scape_1_OABR</nodeName>
+<nodes href="#ref-468"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<LogLevel xsi:type="a9:LogLevel" xmlns:a9="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Logger/DataContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">DEBUG</LogLevel>
+<AddTimestamp>true</AddTimestamp>
+<AddSlot>true</AddSlot>
+<FileName id="ref-469">D:\BMW\MGU\\logfiles\B305XX0000028_HISRI04W_DUT_1\B305XX0000028_HISRI04W_DUT_1_180420_073400_1_OABR_AFT.log</FileName>
+<UdpHost href="#ref-466"/>
+<UdpPort>1111</UdpPort>
+<UdpTimeout>1000</UdpTimeout>
+</a9:Log4Scape>
+<a17:FBSequencer id="ref-109" xmlns:a17="http://schemas.microsoft.com/clr/nsassem/Scape.FunctionBlocks.Sequencer/FBSequencer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-470">FBSequencer_1_OABR</nodeName>
+<nodes href="#ref-471"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<Timeout>10000</Timeout>
+<SlotNb>1</SlotNb>
+</a17:FBSequencer>
+<a23:Blue1000 id="ref-110" xmlns:a23="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.M2MBluetooth/BluetoothDongle%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-473">Blue10001</nodeName>
+<nodes href="#ref-474"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<PortName id="ref-475">COM90</PortName>
+<Timeout>15000</Timeout>
+</a23:Blue1000>
+<a17:FBSequencer id="ref-111" xmlns:a17="http://schemas.microsoft.com/clr/nsassem/Scape.FunctionBlocks.Sequencer/FBSequencer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-476">FBSequencer_1_BIOS</nodeName>
+<nodes href="#ref-477"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<Timeout>10000</Timeout>
+<SlotNb>1</SlotNb>
+</a17:FBSequencer>
+<a17:FBSequencer id="ref-112" xmlns:a17="http://schemas.microsoft.com/clr/nsassem/Scape.FunctionBlocks.Sequencer/FBSequencer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-478">FBSequencer_1_DATA</nodeName>
+<nodes href="#ref-479"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<Timeout>10000</Timeout>
+<SlotNb>1</SlotNb>
+</a17:FBSequencer>
+<a9:Log4Scape id="ref-113" xmlns:a9="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Logger/DataContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-480">Log4Scape_1_DATA</nodeName>
+<nodes href="#ref-481"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<LogLevel xsi:type="a9:LogLevel" xmlns:a9="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Logger/DataContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">DEBUG</LogLevel>
+<AddTimestamp>true</AddTimestamp>
+<AddSlot>true</AddSlot>
+<FileName id="ref-482">D:\BMW\MGU\\logfiles\B305XX0000028_HISRI04W_DUT_1\B305XX0000028_HISRI04W_DUT_1_180420_073400_1_DATA_EOL.log</FileName>
+<UdpHost href="#ref-466"/>
+<UdpPort>1111</UdpPort>
+<UdpTimeout>1000</UdpTimeout>
+</a9:Log4Scape>
+<a9:Log4Scape id="ref-114" xmlns:a9="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Logger/DataContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-483">Log4Scape_1_BIOS</nodeName>
+<nodes href="#ref-484"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<LogLevel xsi:type="a9:LogLevel" xmlns:a9="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Logger/DataContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">DEBUG</LogLevel>
+<AddTimestamp>true</AddTimestamp>
+<AddSlot>true</AddSlot>
+<FileName id="ref-485">D:\BMW\MGU\\logfiles\B305XX0000002_HISRI04W_DUT_1\B305XX0000002_HISRI04W_DUT_1_180424_115928_1_BIOS_AFT.log</FileName>
+<UdpHost href="#ref-466"/>
+<UdpPort>1111</UdpPort>
+<UdpTimeout>1000</UdpTimeout>
+</a9:Log4Scape>
+<a9:Log4Scape id="ref-115" xmlns:a9="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Logger/DataContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-486">Log4Scape_1_GPS</nodeName>
+<nodes href="#ref-487"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<LogLevel xsi:type="a9:LogLevel" xmlns:a9="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Logger/DataContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">DEBUG</LogLevel>
+<AddTimestamp>true</AddTimestamp>
+<AddSlot>true</AddSlot>
+<FileName id="ref-488">D:\BMW\MGU\\logfiles\B264XX0J7528507_HISRI04W_DUT_1\B264XX0J7528507_HISRI04W_DUT_1_180406_092424_1_GPS_AFT.log</FileName>
+<UdpHost href="#ref-466"/>
+<UdpPort>1111</UdpPort>
+<UdpTimeout>1000</UdpTimeout>
+</a9:Log4Scape>
+<a9:Log4Scape id="ref-116" xmlns:a9="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Logger/DataContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-489">Log4Scape_P001</nodeName>
+<nodes href="#ref-490"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<LogLevel xsi:type="a9:LogLevel" xmlns:a9="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Logger/DataContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">DEBUG</LogLevel>
+<AddTimestamp>true</AddTimestamp>
+<AddSlot>true</AddSlot>
+<FileName id="ref-491">D:\BMW\MGU\\logfiles\B305XX0000002_HISRI04W_DUT_1\B305XX0000002_HISRI04W_DUT_1_180424_115928_P001_AFT_FAIL.log</FileName>
+<UdpHost href="#ref-466"/>
+<UdpPort>1111</UdpPort>
+<UdpTimeout>1000</UdpTimeout>
+</a9:Log4Scape>
+<a9:Log4Scape id="ref-117" xmlns:a9="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Logger/DataContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-492">Log4Scape_P002</nodeName>
+<nodes href="#ref-493"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<LogLevel xsi:type="a9:LogLevel" xmlns:a9="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Logger/DataContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">DEBUG</LogLevel>
+<AddTimestamp>true</AddTimestamp>
+<AddSlot>true</AddSlot>
+<FileName id="ref-494">D:\BMW\MGU\\logfiles\B305XX0000028_HISRI04W_DUT_1\B305XX0000028_HISRI04W_DUT_1_180420_073400_P002_EOL.log</FileName>
+<UdpHost href="#ref-466"/>
+<UdpPort>1111</UdpPort>
+<UdpTimeout>1000</UdpTimeout>
+</a9:Log4Scape>
+<a9:Log4Scape id="ref-118" xmlns:a9="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Logger/DataContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-495">Log4Scape_PSEQ</nodeName>
+<nodes href="#ref-496"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<LogLevel xsi:type="a9:LogLevel" xmlns:a9="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Logger/DataContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">DEBUG</LogLevel>
+<AddTimestamp>true</AddTimestamp>
+<AddSlot>true</AddSlot>
+<FileName id="ref-497">D:\BMW\MGU\/logfiles\B305XX0000002_HISRI04W_DUT_1\B305XX0000002_HISRI04W_DUT_1_180424_115928_PSEQ_AFT.log</FileName>
+<UdpHost href="#ref-466"/>
+<UdpPort>1111</UdpPort>
+<UdpTimeout>1000</UdpTimeout>
+</a9:Log4Scape>
+<a24:BiosServerNETDevice id="ref-119" xmlns:a24="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.BiosServer/BiosServerDevice%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-499">BiosServerNETDevice1</nodeName>
+<nodes href="#ref-500"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<Timeout>2000</Timeout>
+<PortName id="ref-501">COM11</PortName>
+</a24:BiosServerNETDevice>
+<a25:uMostMaster id="ref-120" xmlns:a25="http://schemas.microsoft.com/clr/nsassem/MicroMost.Master/MicroMostBoardT24%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-503">uMostMaster1</nodeName>
+<nodes href="#ref-504"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<Visible href="#ref-440"/>
+<Timeout>1000</Timeout>
+<PortName id="ref-505">COM11</PortName>
+<DoubleBuffer>false</DoubleBuffer>
+<Retries>10</Retries>
+</a25:uMostMaster>
+<a8:DataContainer id="ref-121" xmlns:a8="http://schemas.microsoft.com/clr/nsassem/DataContainer/DataContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-506">DataContainer_LocalVolatile</nodeName>
+<nodes href="#ref-507"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<PersistValues>false</PersistValues>
+</a8:DataContainer>
+<a26:MostProtocolDevice id="ref-122" xmlns:a26="http://schemas.microsoft.com/clr/nsassem/MostLayer/DiagnosticProtocols%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-509">MostProtocolDevice1</nodeName>
+<nodes href="#ref-510"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<CommDevice id="ref-511">Devices/SlotContainer1/uMostMaster1</CommDevice>
+<FBlockId id="ref-512">06</FBlockId>
+<Target id="ref-513">0100</Target>
+<InstId id="ref-514">63</InstId>
+<FktId id="ref-515">050</FktId>
+<OpType id="ref-516">0</OpType>
+<Timeout>1000</Timeout>
+<CompareInstId>true</CompareInstId>
+<Retries>0</Retries>
+</a26:MostProtocolDevice>
+<a27:MessdatDllDataLogger id="ref-123" xmlns:a27="http://schemas.microsoft.com/clr/nsassem/MESController.MessdatDll/MESController%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-518">MessdatDllDataLogger1</nodeName>
+<nodes href="#ref-519"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<Enabled>false</Enabled>
+<ComputerName xsi:type="xsd:anyType" xsi:null="1"/>
+<IP xsi:type="xsd:anyType" xsi:null="1"/>
+<Port>0</Port>
+<ProgramName xsi:type="xsd:anyType" xsi:null="1"/>
+<ProgramVersion xsi:type="xsd:anyType" xsi:null="1"/>
+<TraceEnable>false</TraceEnable>
+<TraceFileDelEnable>false</TraceFileDelEnable>
+</a27:MessdatDllDataLogger>
+<a17:FBSequencer id="ref-124" xmlns:a17="http://schemas.microsoft.com/clr/nsassem/Scape.FunctionBlocks.Sequencer/FBSequencer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-520">FBSequencer_1_SLD</nodeName>
+<nodes href="#ref-521"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<Timeout>10000</Timeout>
+<SlotNb>1</SlotNb>
+</a17:FBSequencer>
+<a9:Log4Scape id="ref-125" xmlns:a9="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Logger/DataContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-522">Log4Scape_1_SLD</nodeName>
+<nodes href="#ref-523"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<LogLevel xsi:type="a9:LogLevel" xmlns:a9="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Logger/DataContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">DEBUG</LogLevel>
+<AddTimestamp>true</AddTimestamp>
+<AddSlot>true</AddSlot>
+<FileName id="ref-524">D:\BMW\MGU\\logfiles\B264XX0J7528507_HISRI04W_DUT_1\B264XX0J7528507_HISRI04W_DUT_1_180406_092424_1_SLD_AFT.log</FileName>
+<UdpHost href="#ref-466"/>
+<UdpPort>1111</UdpPort>
+<UdpTimeout>1000</UdpTimeout>
+</a9:Log4Scape>
+<a9:Log4Scape id="ref-126" xmlns:a9="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Logger/DataContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-525">Log4Scape_1_WLAN</nodeName>
+<nodes href="#ref-526"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<LogLevel xsi:type="a9:LogLevel" xmlns:a9="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Logger/DataContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">DEBUG</LogLevel>
+<AddTimestamp>true</AddTimestamp>
+<AddSlot>true</AddSlot>
+<FileName id="ref-527">D:\BMW\MGU\\logfiles\B305XX0000028_HISRI04W_DUT_1\B305XX0000028_HISRI04W_DUT_1_180420_073400_1_WLAN_AFT.log</FileName>
+<UdpHost href="#ref-466"/>
+<UdpPort>1111</UdpPort>
+<UdpTimeout>1000</UdpTimeout>
+</a9:Log4Scape>
+<a17:FBSequencer id="ref-127" xmlns:a17="http://schemas.microsoft.com/clr/nsassem/Scape.FunctionBlocks.Sequencer/FBSequencer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-528">FBSequencer_1_WLAN</nodeName>
+<nodes href="#ref-529"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<Timeout>10000</Timeout>
+<SlotNb>1</SlotNb>
+</a17:FBSequencer>
+<a20:TelnetDevice id="ref-128" xmlns:a20="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.RemoteQnx.Telnet/RemoteQnxDevice%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-530">TelnetDeviceWlanRouter</nodeName>
+<nodes href="#ref-531"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<Visible href="#ref-440"/>
+<Host id="ref-532">192.168.4.121</Host>
+<Username id="ref-533">root</Username>
+<Password id="ref-534">admin</Password>
+<Prompt id="ref-535">root@BMW IuK MGU:~# </Prompt>
+<PromtTimeOut>30000</PromtTimeOut>
+<ReceiveTimeout>44444</ReceiveTimeout>
+<Port>23</Port>
+<AcceptPromptOnlyAfterEcho>false</AcceptPromptOnlyAfterEcho>
+<LoginDelay>1000</LoginDelay>
+<StreamReadDelay>10</StreamReadDelay>
+<LogoutOnDisable>false</LogoutOnDisable>
+</a20:TelnetDevice>
+<a15:CurrentMapper id="ref-129" xmlns:a15="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.MeasurementMapper.Current/MeasurementMapper%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-536">CurrentMapper1</nodeName>
+<nodes href="#ref-537"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<Controller id="ref-538">Devices/Adq400Device1</Controller>
+</a15:CurrentMapper>
+<a8:DataContainer id="ref-130" xmlns:a8="http://schemas.microsoft.com/clr/nsassem/DataContainer/DataContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-539">DataContainer_LocalPersistent</nodeName>
+<nodes href="#ref-540"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<PersistValues>true</PersistValues>
+</a8:DataContainer>
+<a28:HSFZLayerDevice id="ref-131" xmlns:a28="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.HSFZ/DiagnosticProtocols%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-541">HSFZLayerDevice1</nodeName>
+<nodes href="#ref-542"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<Host href="#ref-441"/>
+<Timeout>15000</Timeout>
+<SourceAddress>244</SourceAddress>
+<TargetAddress>99</TargetAddress>
+<Port>8801</Port>
+<Retries>3</Retries>
+</a28:HSFZLayerDevice>
+<a20:TelnetDevice id="ref-132" xmlns:a20="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.RemoteQnx.Telnet/RemoteQnxDevice%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-543">TelnetDevice_1_WLAN</nodeName>
+<nodes href="#ref-544"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<Visible href="#ref-440"/>
+<Host href="#ref-441"/>
+<Username href="#ref-442"/>
+<Password href="#ref-443"/>
+<Prompt href="#ref-444"/>
+<PromtTimeOut>30000</PromtTimeOut>
+<ReceiveTimeout>44444</ReceiveTimeout>
+<Port>23</Port>
+<AcceptPromptOnlyAfterEcho>false</AcceptPromptOnlyAfterEcho>
+<LoginDelay>1000</LoginDelay>
+<StreamReadDelay>10</StreamReadDelay>
+<LogoutOnDisable>false</LogoutOnDisable>
+</a20:TelnetDevice>
+<a9:CNLogger id="ref-133" xmlns:a9="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Logger/DataContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-545">CNLogger1</nodeName>
+<nodes href="#ref-546"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<TargetName id="ref-547">B247XX0F7665330_151022_153055_CNLOGGER_SLOT1_OMAP</TargetName>
+<TargetAdress href="#ref-441"/>
+<HostPort>851</HostPort>
+<ServerPort>3010</ServerPort>
+<UserID href="#ref-47"/>
+<LogDir href="#ref-48"/>
+<LogSize>100</LogSize>
+</a9:CNLogger>
+<a9:CNLogger id="ref-134" xmlns:a9="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.Logger/DataContainer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-548">CNLogger2</nodeName>
+<nodes href="#ref-549"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<TargetName id="ref-550">B247XX0F7665330_151022_153055_CNLOGGER_SLOT1_JACINTO</TargetName>
+<TargetAdress href="#ref-441"/>
+<HostPort>8851</HostPort>
+<ServerPort>3011</ServerPort>
+<UserID href="#ref-47"/>
+<LogDir href="#ref-48"/>
+<LogSize>100</LogSize>
+</a9:CNLogger>
+<a29:PdesConstructionKit id="ref-135" xmlns:a29="http://schemas.microsoft.com/clr/nsassem/PdesConstructionKit/MESController%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-551">PdesConstructionKit1</nodeName>
+<nodes href="#ref-552"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">Invisible</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<Enabled>false</Enabled>
+<Visible href="#ref-457"/>
+<BarcodeType xsi:type="a30:CodeType" xmlns:a30="http://schemas.microsoft.com/clr/nsassem/DataLoggerMES/MESController%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">Barcode15Digits</BarcodeType>
+<LocationOfDb>1</LocationOfDb>
+<Line>0</Line>
+<RetrieveSwInfoOnModuleLevel>false</RetrieveSwInfoOnModuleLevel>
+<Index>0</Index>
+</a29:PdesConstructionKit>
+<a31:PdesDataLogger id="ref-136" xmlns:a31="http://schemas.microsoft.com/clr/nsassem/DataLoggerMES.Pdes/MESController%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-553">PdesDataLogger1</nodeName>
+<nodes href="#ref-554"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">Invisible</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<Enabled>false</Enabled>
+<UseSAPME>false</UseSAPME>
+<ProcessControl>true</ProcessControl>
+<Visible href="#ref-457"/>
+<StoreMeasurementDataStepByStep>true</StoreMeasurementDataStepByStep>
+<Index>0</Index>
+</a31:PdesDataLogger>
+<a32:Toellner8871 id="ref-137" xmlns:a32="http://schemas.microsoft.com/clr/nsassem/PowerSupply/PowerSupplies%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-556">Toellner895XUSB1</nodeName>
+<nodes href="#ref-557"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<Visible xsi:type="xsd:anyType" xsi:null="1"/>
+<Timeout>1000</Timeout>
+<PortName id="ref-558">COM31</PortName>
+<XLocation>0</XLocation>
+<YLocation>0</YLocation>
+</a32:Toellner8871>
+<a33:HmiDataLogger id="ref-138" xmlns:a33="http://schemas.microsoft.com/clr/nsassem/MESController.HMIDataLogger/MESController%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<Index>0</Index>
+<ProcessDescription xsi:type="xsd:anyType" xsi:null="1"/>
+<Enabled>false</Enabled>
+<AdapterId>0</AdapterId>
+<StartSfcMode xsi:type="a33:StartSfcMode" xmlns:a33="http://schemas.microsoft.com/clr/nsassem/MESController.HMIDataLogger/MESController%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">StartSfc</StartSfcMode>
+<nodeName id="ref-559">HmiDataLogger1</nodeName>
+<nodes href="#ref-560"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+</a33:HmiDataLogger>
+<a34:VMDataLogger id="ref-139" xmlns:a34="http://schemas.microsoft.com/clr/nsassem/DataLoggerMES.Visiprise/MESController%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-561">VMDataLogger1</nodeName>
+<nodes href="#ref-562"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<Enabled>false</Enabled>
+<Site id="ref-563">
+      </Site>
+<Operation href="#ref-31"/>
+<User id="ref-564">
+      </User>
+<Password id="ref-565">
+      </Password>
+<Resource href="#ref-31"/>
+<RemoteHost id="ref-566">localhost</RemoteHost>
+<RemotePort>50000</RemotePort>
+<BarcodeType xsi:type="a30:CodeType" xmlns:a30="http://schemas.microsoft.com/clr/nsassem/DataLoggerMES/MESController%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">Barcode15Digits</BarcodeType>
+<UseCustomDataFieldEC>true</UseCustomDataFieldEC>
+<DescriptionLength xsi:type="a34:DescriptionLength" xmlns:a34="http://schemas.microsoft.com/clr/nsassem/DataLoggerMES.Visiprise/MESController%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">_80</DescriptionLength>
+<Quantity>1</Quantity>
+<FixtureId id="ref-567">
+      </FixtureId>
+</a34:VMDataLogger>
+<a35:SerialTerminalDevice id="ref-140" xmlns:a35="http://schemas.microsoft.com/clr/nsassem/Scape.Devices.RemoteQnx.SerialTerminal/RemoteQnxDevice%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">
+<nodeName id="ref-569">SerialTerminalDevice1</nodeName>
+<nodes href="#ref-570"/>
+<parentNode href="#ref-8"/>
+<eventSource>false</eventSource>
+<visible xsi:type="a4:VisibleItems" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Observer/Observer%2C%20Version%3D4.4.31.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D46c76a398fbe113e">None</visible>
+<location xsi:type="a5:Point" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</location>
+<size xsi:type="a5:Size" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>0</width>
+<height>0</height>
+</size>
+<Visible href="#ref-440"/>
+<Username id="ref-571">root</Username>
+<Password href="#ref-31"/>
+<Prompt id="ref-572">#</Prompt>
+<Timeout>30000</Timeout>
+<PortName id="ref-573">COM14</PortName>
+<BaudRate>115200</BaudRate>
+<DataBits>8</DataBits>
+<Parity xsi:type="a36:Parity" xmlns:a36="http://schemas.microsoft.com/clr/nsassem/System.IO.Ports/System%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">None</Parity>
+<StopBits xsi:type="a36:StopBits" xmlns:a36="http://schemas.microsoft.com/clr/nsassem/System.IO.Ports/System%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">One</StopBits>
+<SendHexStringAsBytes>false</SendHexStringAsBytes>
+<StreamReadDelay>100</StreamReadDelay>
+<AddTimestamp>false</AddTimestamp>
+</a35:SerialTerminalDevice>
+</SOAP-ENV:Envelope>

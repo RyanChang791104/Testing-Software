@@ -1,0 +1,11 @@
+﻿	
+	public static class MyClass
+	{
+	
+	    public static void MainLogic()
+	    {
+	    
+	console.Write("HI);
+	 }
+
+	}
